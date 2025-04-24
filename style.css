@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .max-w {
     max-width: 1250px;
     /* margin: 0 auto; */
@@ -5,13 +10,27 @@
 
 .mx-auto {
     margin: 0 auto;
-    ;
 }
 
-.border-4 {
-    border: 4px solid red;
+.border-2 {
+    border: 2px solid red;
 }
 
+.title {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.sub-title {
+    max-width: 600px;
+}
+
+.title-container {
+    max-width: 800px;
+    /* line-height: 10px; */
+    /* gap: 24px; */
+
+}
 
 /* flex property */
 .flex {
@@ -44,7 +63,7 @@ nav {
     /* background-color: bisque; */
     padding: 20px 0;
     /* margin-bottom: 102px; */
-    
+
 }
 
 nav img {
@@ -98,7 +117,7 @@ ul li {
     max-width: 800px;
 }
 
-.gen-z {
+.top-caption {
     padding: 8px 12px;
     border-radius: 1234px;
     color: #4F46E5;
@@ -110,11 +129,13 @@ ul li {
     font-weight: 800;
     max-width: 800px;
     margin: 0 auto;
+    margin: 24px 0px;
 }
 
-/* .banner-description{
+.store {
+    margin: 48px 0px 64px 0px;
+}
 
-} */
 .banner-img {
     position: relative;
 }
@@ -129,13 +150,71 @@ ul li {
 }
 
 /* company */
-.company-section{
-    margin: 64px 0;
+.company-section {
+    padding: 64px 0;
+    background-color: #F8FAFC;
 }
-.company-section .first-row{
+
+.company-section .first-row {
     flex-wrap: wrap;
 }
-.company-section .second-row{
+
+.company-section .second-row {
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+/* features  */
+
+.features-section {
+    padding: 96px 0px;
+}
+
+.features-section .title {
+    margin: 24px 0px;
+}
+
+.features-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.features-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 64px;
+}
+
+/* result  */
+.result-section {
+    padding: 96px 0px;
+    background-color: #F8FAFC;
+}
+
+.result-section-title-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-section .title {
+    margin: 20px 0px;
+}
+
+.result-percentage {
+    margin-top: 64px;
+}
+
+.result-percentage div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-percentage h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #4F46E5;
 }
