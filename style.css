@@ -12,6 +12,7 @@
     border: 4px solid red;
 }
 
+
 /* flex property */
 .flex {
     display: flex;
@@ -43,6 +44,7 @@ nav {
     /* background-color: bisque; */
     padding: 20px 0;
     /* margin-bottom: 102px; */
+    
 }
 
 nav img {
@@ -124,4 +126,16 @@ ul li {
     right: 10px;
     width: 180px;
     height: 350px;
+}
+
+/* company */
+.company-section{
+    margin: 64px 0;
+}
+.company-section .first-row{
+    flex-wrap: wrap;
+}
+.company-section .second-row{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
