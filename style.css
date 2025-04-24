@@ -1,0 +1,78 @@
+.max-w {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* flex property */
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* text property */
+.text-center {
+    text-align: center;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+/* nav css */
+nav {
+    background-color: bisque;
+    padding: 20px 0;
+    margin-bottom: 102px;
+}
+
+nav img {
+    width: 110px;
+    height: 32px;
+}
+
+.logo {
+    border: 2px solid red;
+}
+
+.logo-title {
+    font-size: 30px;
+    font-weight: 900;
+    border: 2px solid red;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 32px;
+}
+
+.signup {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 1234px;
+    border: none;
+    margin-right: 10px;
+}
+
+.login {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 1234px;
+    background-color: #4F46E5;
+    border: none;
+    color: white;
+}
