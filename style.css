@@ -22,7 +22,8 @@
 }
 
 .sub-title {
-    max-width: 600px;
+    max-width: 700px;
+    font-size: 20px;
 }
 
 .title-container {
@@ -217,4 +218,28 @@ ul li {
     font-size: 80px;
     font-weight: 700;
     color: #4F46E5;
+}
+/* who is it for  */
+.who-is-it-section{
+    padding: 96px 0px;
+}
+.who-is-it-section .title{
+    margin: 24px 0px 16px 0px;
+}
+.who-is-it-content{
+    margin-top: 64px;
+    gap: 128px;
+}
+.who-is-it-content div{
+   padding: 32px 24px;
+}
+.who-is-it-content h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+/* testimonials */
+.testimonials-section{
+    padding: 100px 0px;
+    background-color: #F8FAFC;
 }
