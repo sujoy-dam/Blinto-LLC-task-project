@@ -380,3 +380,22 @@ padding: 0 96;
     border-top: none;
     border-radius: 0px 0 24px 24px;
 }
+
+footer{
+    padding: 96px 0;
+    background-color: #F8FAFC;
+}
+footer li{
+    font-weight: 500;
+}
+footer ul{
+    display: flex;
+  flex-direction: column;
+  gap: 12px; 
+}
+footer ul li:first-child{
+    margin-bottom: 16px;
+}
+hr{
+    margin: 42px 0;
+}
