@@ -123,6 +123,7 @@ ul li {
     border-radius: 1234px;
     color: #4F46E5;
     background-color: #EEF2FF;
+    font-size: 14px;
 }
 
 .banner-title {
@@ -219,27 +220,78 @@ ul li {
     font-weight: 700;
     color: #4F46E5;
 }
+
 /* who is it for  */
-.who-is-it-section{
+.who-is-it-section {
     padding: 96px 0px;
 }
-.who-is-it-section .title{
+
+.who-is-it-section .title {
     margin: 24px 0px 16px 0px;
 }
-.who-is-it-content{
+
+.who-is-it-content {
     margin-top: 64px;
     gap: 128px;
 }
-.who-is-it-content div{
-   padding: 32px 24px;
+
+.who-is-it-content div {
+    padding: 32px 24px;
 }
-.who-is-it-content h1{
+
+.who-is-it-content h1 {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 12px;
 }
+
 /* testimonials */
-.testimonials-section{
+.testimonials-section {
     padding: 100px 0px;
     background-color: #F8FAFC;
+}
+
+.testimonials-title-container .title {
+    margin: 24px 0px;
+}
+.testimonials-content-container{
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+.testimonials-content-container > div{
+    padding: 24px;
+    border: 1px solid gray;
+    border-radius: 24px;
+}
+.testimonials-description{
+    margin: 24px 0;
+}
+.rounded-full{
+    border-radius: 100%;
+    width: 48px;
+    margin-right: 10px;
+}
+/* our office */
+.our-office-section{
+    margin: 64px 0px;
+}
+.our-office-title-section .title{
+    margin: 28px 0 24px 0;
+}
+.our-office-content-section{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 44px;
+margin-top: 64px;
+}
+.our-office-content-section div{
+    padding: 24px;
+    border: .5px solid gainsboro;
+    border-radius: 24px;
+}
+.our-office-content-section div h3{
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
