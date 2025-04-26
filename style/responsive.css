@@ -3,6 +3,13 @@
         font-size: 30px;
         font-weight: 800;
     }
+    .btn{
+        width: 100%;
+    }
+    .btn-primary{
+        width: 100%;
+        margin-top: 12px;
+    }
 
     /* banner */
     .banner-section {
@@ -129,6 +136,49 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 32px;
         margin-top: 50px;
+    }
+    /* download */
+    .download-section {
+        /* background-color: #EEF2FF; */
+        padding: 64px 16px ;
+        /* height: 853px; */
+    }
+    .download-section .mx-auto{
+        flex-direction: column;
+    }
+    .download-section-title {
+        max-width: 580px;
+        width: 100%;
+    }
+    .download-section-content {
+        /* position: relative; */
+        width: 100%;
+        /* display: flex; */
+        max-height: 420px;
+        margin-top: 48px;
+        /* align-items: center; */
+        /* justify-content: ; */
+    }
+    .download-section-content .img-1 {
+        width: 182px;
+        height: 315px;
+        border: 2px solid gainsboro;
+        border-radius: 24px;
+        /* bottom: 0; */
+    }
+    
+    .download-section-content .img-2 {
+         position: absolute;
+         right: 0px;
+        /* half out  */
+       top: 0; 
+        width: 182px;
+        height: 330px;
+        /* z-index: 1;
+        opacity: 0.9;
+        /* border: 2px solid gainsboro; */
+        
+        border-radius: 24px;
     }
 
 }
