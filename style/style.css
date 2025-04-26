@@ -406,14 +406,22 @@ footer{
 footer li{
     font-weight: 500;
 }
-footer ul{
+/* footer ul{
     display: flex;
   flex-direction: column;
   gap: 12px; 
-}
+} */
+ .footer-list-item{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 32px;
+ }
 footer ul li:first-child{
     margin-bottom: 16px;
 }
 hr{
     margin: 42px 0;
+}
+.footer-last-part{
+    flex-direction: column;
 }
