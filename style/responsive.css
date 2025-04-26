@@ -5,13 +5,15 @@
     }
 
     /* banner */
-    .banner-section{
+    .banner-section {
         padding: 70px 16px;
     }
+
     .banner-title {
         font-size: 38px;
-       
+
     }
+
     .banner-img .img-1 {
         /* position: absolute;
         bottom: 60px;
@@ -19,6 +21,7 @@
         width: 343px;
         /* height: 350px; */
     }
+
     .banner-img .img-2 {
         position: absolute;
         bottom: 10px;
@@ -26,65 +29,106 @@
         width: 97px;
         height: 177px;
     }
+
     /* company */
     .company-section {
         padding: 64px 16px;
         /* background-color: #F8FAFC; */
     }
-    .company-section img{
+
+    .company-section img {
         width: 98px;
     }
+
     .company-section .first-row {
-        display:grid;
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    
+
     .company-section .second-row {
-        display:grid;
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 0px;
     }
+
     /* features  */
     .features-section {
         padding: 70px 16px;
     }
+
     .features-content {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         /* gap: 32px;
         margin-top: 64px; */
     }
+
     /* result  */
     .result-section {
         padding: 64px 16px;
         /* background-color: #F8FAFC; */
     }
+
     .result-percentage {
         margin-top: 64px;
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
     }
-    .result-percentage > hr{
+
+    .result-percentage>hr {
         display: flex;
     }
-    .border-right{
+
+    .border-right {
         border-right: none;
     }
+
     .result-percentage h1 {
         font-size: 60px;
         font-weight: 700;
         color: #4F46E5;
     }
+
     /* who is it for  */
     .who-is-it-section {
         padding: 96px 16px;
     }
+
     .who-is-it-content {
         margin-top: 40px;
         flex-direction: column;
     }
+
     .who-is-it-content img {
         padding: 0px 0px;
+    }
+
+    /* testimonials */
+    .testimonials-section {
+        padding: 96px 16px;
+    }
+
+    .testimonials-content-container {
+        margin-top: 16px;
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px;
+    }
+
+    .load-btn {
+        display: flex;
+        margin-top: 32px;
+    }
+
+    /* our office */
+    .our-office-section {
+        margin: 64px 16px;
+    }
+    .our-office-content-section {
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px;
+        margin-top: 50px;
     }
 
 }
