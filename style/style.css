@@ -161,12 +161,15 @@ ul li {
 }
 
 .company-section .first-row {
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    
 }
 
 .company-section .second-row {
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 40px;
 }
 
 /* features  */

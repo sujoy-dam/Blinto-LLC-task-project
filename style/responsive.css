@@ -25,4 +25,19 @@
         width: 97px;
         height: 177px;
     }
+    /* company */
+    .company-section {
+        padding: 64px 10px;
+        /* background-color: #F8FAFC; */
+    }
+    .company-section .first-row {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .company-section .second-row {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0px;
+    }
 }
