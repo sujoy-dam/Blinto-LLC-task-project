@@ -213,12 +213,16 @@ ul li {
 
 .result-percentage {
     margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+.result-percentage > hr{
+    display: none;
 }
 
-.result-percentage div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.border-right{
+    border-right: 1px solid gray;
 }
 
 .result-percentage h1 {
@@ -238,11 +242,18 @@ ul li {
 
 .who-is-it-content {
     margin-top: 64px;
-    gap: 128px;
+    gap: 32px;
+}
+.who-is-it-content-description{
+    padding: 0 32px;
 }
 
-.who-is-it-content div {
-    padding: 32px 24px;
+.who-is-it-content-description div {
+display: flex;
+flex-direction: column;
+/* gap: 32px; */
+max-width: 450px;
+  padding: 32px 24px;
 }
 
 .who-is-it-content h1 {
