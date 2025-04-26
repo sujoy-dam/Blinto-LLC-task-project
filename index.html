@@ -5,34 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/responsive.css">
     <link rel="icon" type="image/png" href="./image/nav/Logomark.png">
+    <script src="https://kit.fontawesome.com/8da0e75a17.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="header">
         <!-- navber -->
-        <nav class="flex max-w mx-auto justify-between items-center" style="display: none;">
+        <nav class="flex navber max-w mx-auto justify-between items-center">
             <div class="flex items-center">
-
                 <img class="h-full" src="./image/nav/Logo.png" />
             </div>
-            <div>
+            <div class="nav-list">
                 <ul class="flex items-center">
-                    <li>Features</li>
-                    <li>Achievments</li>
-                    <li>Testimonials</li>
-                    <li>FAQ</li>
+                    <li><a href="#features">
+                        Features
+                    </a></li>
+                    <li><a href="#achievments">Achievments</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                 </ul>
             </div>
             <div>
-                <button class="btn">Sign Up</button>
-                <button class="btn-primary">Log in</button>
+                <button class="btn" id="sign-up">Sign Up</button>
+                <button class="btn-primary" id="log-in">Log in</button>
             </div>
+            <div class="menu-icon" id="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+              </div>
         </nav>
+        <div class="mobile-menu" id="mobile-menu">
+            <ul>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="./html/signup.html">Sign Up</a></li>
+              <li><a href="./html/login.html">Login</a></li>
+            </ul>
+          </div>
         <!-- banner -->
-        <section class="border-2 banner-section">
+        <section class="banner-section">
             <div class="banner-container max-w mx-auto text-center mx-auto">
                 <h1 class="text-center">
                     <span class="top-caption">Design System For Gen Z</span>
@@ -56,7 +72,7 @@
     <main class="" >
         <!-- company -->
         <section class="company-section">
-            <div class="max-w mx-auto">
+            <div class="max-w mx-auto" id="features">
                 <div class="first-row">
                     <img src="./image/company/Delta.png" alt="">
                     <img src="./image/company/Boing.png" alt="">
@@ -128,8 +144,8 @@
             </div>
         </section>
         <!-- result -->
-        <section class="result-section">
-            <div class="title-container mx-auto">
+        <section class="result-section" >
+            <div class="title-container mx-auto" id="achievements">
                 <div class="result-section-title-box">
                     <img class="text-center mx-auto" src="./image/result/Icon Container.png" alt="">
                     <h1 class="title text-center">Work lazily and achieve the result you want.</h1>
@@ -196,7 +212,7 @@
         </section>
         <!-- testimonials  -->
         <section class="testimonials-section">
-            <div class="max-w mx-auto">
+            <div class="max-w mx-auto" id="testimonials">
                 <div class="testimonials-title-container">
                     <h1 class="text-center">
                         <span class="top-caption text-center">Testimonials</span>
@@ -388,7 +404,7 @@
         </section>
         <!-- FAQ  -->
         <section class="FAQ-section" style="display: none;">
-            <div class="max-w mx-auto">
+            <div class="max-w mx-auto" id="faq">
                 <div class="FAQ-section-title">
                     <h1 class="text-center">
                         <span class="top-caption">FAQ</span>
@@ -491,6 +507,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

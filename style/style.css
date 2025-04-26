@@ -60,16 +60,51 @@
 }
 
 /* nav css */
-nav {
-    /* background-color: bisque; */
-    padding: 20px 0;
-    /* margin-bottom: 102px; */
+.mobile-menu {
+    display: none;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 70px;
+    /* right: 0px; */
+    width: 100%;
+}
 
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.mobile-menu ul li {
+    margin-bottom: 15px;
+}
+
+.mobile-menu ul li a,
+.mobile-menu ul li button {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+.navber {
+    padding: 13px 0;
 }
 
 nav img {
     width: 110px;
     height: 32px;
+}
+li{
+    text-decoration: none;
+}
+li:hover{
+    text-decoration: underline;
 }
 
 .logo {
@@ -161,13 +196,13 @@ ul li {
 }
 
 .company-section .first-row {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(6, 1fr);
-    
+
 }
 
 .company-section .second-row {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 0 40px;
 }
@@ -217,11 +252,12 @@ ul li {
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
 }
-.result-percentage > hr{
+
+.result-percentage>hr {
     display: none;
 }
 
-.border-right{
+.border-right {
     border-right: 1px solid gray;
 }
 
@@ -244,16 +280,17 @@ ul li {
     margin-top: 64px;
     gap: 32px;
 }
-.who-is-it-content-description{
+
+.who-is-it-content-description {
     padding: 0 32px;
 }
 
 .who-is-it-content-description div {
-display: flex;
-flex-direction: column;
-/* gap: 32px; */
-max-width: 450px;
-  padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 32px; */
+    max-width: 450px;
+    padding: 32px 24px;
 }
 
 .who-is-it-content h1 {
@@ -294,7 +331,8 @@ max-width: 450px;
     width: 48px;
     margin-right: 10px;
 }
-.load-btn{
+
+.load-btn {
     display: none;
 }
 
@@ -399,29 +437,26 @@ padding: 0 96;
     border-radius: 0px 0 24px 24px;
 }
 
-footer{
+footer {
     padding: 96px 0;
     background-color: #F8FAFC;
 }
-footer li{
+
+footer li {
     font-weight: 500;
 }
-/* footer ul{
-    display: flex;
-  flex-direction: column;
-  gap: 12px; 
-} */
- .footer-list-item{
+
+.footer-list-item {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 32px;
- }
-footer ul li:first-child{
+}
+
+footer ul li:first-child {
     margin-bottom: 16px;
 }
-hr{
+
+hr {
     margin: 42px 0;
 }
-.footer-last-part{
-    flex-direction: column;
-}
+
