@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/responsive.css">
     <link rel="icon" type="image/png" href="./image/nav/Logomark.png">
@@ -15,15 +15,15 @@
 <body>
     <header class="header">
         <!-- navber -->
-        <nav class="flex navber max-w mx-auto justify-between items-center">
+        <nav id="nav-ber" class="flex navber max-w mx-auto justify-between items-center">
             <div class="flex items-center">
                 <img class="h-full" src="./image/nav/Logo.png" />
             </div>
             <div class="nav-list">
                 <ul class="flex items-center">
                     <li><a href="#features">
-                        Features
-                    </a></li>
+                            Features
+                        </a></li>
                     <li><a href="#achievments">Achievments</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#faq">FAQ</a></li>
@@ -35,18 +35,18 @@
             </div>
             <div class="menu-icon" id="menu-icon">
                 <i class="fa-solid fa-bars"></i>
-              </div>
+            </div>
         </nav>
         <div class="mobile-menu" id="mobile-menu">
             <ul>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#achievements">Achievements</a></li>
-              <li><a href="#testimonials">Testimonials</a></li>
-              <li><a href="#faq">FAQ</a></li>
-              <li><a href="./html/signup.html">Sign Up</a></li>
-              <li><a href="./html/login.html">Login</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="./html/signup.html">Sign Up</a></li>
+                <li><a href="./html/login.html">Login</a></li>
             </ul>
-          </div>
+        </div>
         <!-- banner -->
         <section class="banner-section">
             <div class="banner-container max-w mx-auto text-center mx-auto">
@@ -69,7 +69,7 @@
             </div>
         </section>
     </header>
-    <main class="" >
+    <main class="">
         <!-- company -->
         <section class="company-section">
             <div class="max-w mx-auto" id="features">
@@ -144,7 +144,7 @@
             </div>
         </section>
         <!-- result -->
-        <section class="result-section" >
+        <section class="result-section">
             <div class="title-container mx-auto" id="achievements">
                 <div class="result-section-title-box">
                     <img class="text-center mx-auto" src="./image/result/Icon Container.png" alt="">
@@ -285,7 +285,7 @@
                         </div>
                     </div>
                     <!-- 5th -->
-                    <div>
+                    <div class="testimonials-img">
                         <img src="./image/Testimonials/5th/Rating.png" alt="">
                         <p class="testimonials-description">Accumsan tortor posuere ac ut consequat. Quis varius quam
                             quisque id diam vel. Commodo odio aenean sed adipiscing diam donec adipiscing. Vel pharetra
@@ -300,7 +300,7 @@
                         </div>
                     </div>
                     <!-- 6th  -->
-                    <div>
+                    <div class="testimonials-img">
                         <img src="./image/Testimonials/6th/Rating.png" alt="">
                         <p class="testimonials-description">Venenatis cras sed felis eget velit aliquet. Velit
                             scelerisque in dictum non consectetur. Felis eget velit aliquet sagittis. Ultricies integer
@@ -315,7 +315,7 @@
                         </div>
                     </div>
                     <!-- 7th -->
-                    <div>
+                    <div class="testimonials-img">
                         <img src="./image/Testimonials/7th/Rating.png" alt="">
                         <p class="testimonials-description">Sagittis eu volutpat odio facilisis mauris sit amet massa.
                             Urna et pharetra pharetra massa.</p>
@@ -329,7 +329,7 @@
                         </div>
                     </div>
                     <!-- 8th -->
-                    <div>
+                    <div class="testimonials-img">
                         <img src="./image/Testimonials/1st/Rating.png" alt="">
                         <p class="testimonials-description"> Cras fermentum odio eu feugiat pretium nibh ipsum consequat
                             nisl. Nec nam aliquam sem et tortor consequat id porta nibh. Viverra suspendisse. Lacus sed
@@ -344,7 +344,7 @@
                         </div>
                     </div>
                     <!-- 9th -->
-                    <div>
+                    <div class="testimonials-img">
                         <img src="./image/Testimonials/3rd/Rating.png" alt="">
                         <p class="testimonials-description">Viverra accumsan in nisl nisi scelerisque eu. Vitae congue
                             eu consequat ac felis donec.</p>
@@ -359,7 +359,7 @@
                     </div>
                 </div>
                 <div class="load-btn">
-                    <button class="btn-primary w-full">Load More +</button>
+                    <button id="testimonial-show" class="btn-primary w-full">Load More +</button>
                 </div>
             </div>
         </section>
@@ -403,7 +403,7 @@
             </div>
         </section>
         <!-- FAQ  -->
-        <section class="FAQ-section" style="display: none;">
+        <section class="FAQ-section">
             <div class="max-w mx-auto" id="faq">
                 <div class="FAQ-section-title">
                     <h1 class="text-center">
@@ -415,7 +415,63 @@
                         ultrices.</p>
                 </div>
                 <div class="FAQ-section-content">
+                    <div class="accordion title-container mx-auto">
+                        <div class="accordion-item">
+                            <p class="accordion-header">
+                                <i class="fa-regular fa-circle-question"></i>
+                                Enim sed faucibus turpis in eu mi bibendum neque egestas?
+                            </p>
+                            <p class="arrow">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </p>
+                        </div>
+                        <!-- <hr> -->
+                        <div class="accordion-item">
+                            <p class="accordion-header">
+                                <i class="fa-regular fa-circle-question"></i>
+                                Amet consectetur adipiscing elit pellentesque habitant morbi tristique?
+                            </p>
+                            <p class="arrow">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </p>
+                        </div>
+                        <div class="accordion-item">
+                            
+                            <p class="accordion-header">
+                                <i class="fa-regular fa-circle-question"></i>
+                                Elit pellentesque habitant morbi tristique senectus?
+                            </p>
+                            <p class="arrow">
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </p>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu
+                                scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque
+                                fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis
+                                blandit turpis cursus in hac.</p>
+                        </div>
 
+                        <div class="accordion-item">
+                            <p class="accordion-header">
+                                <i class="fa-regular fa-circle-question"></i>
+                                Gravida quis blandit turpis cursus in hac. Mi ipsum faucibus vitae aliquet nec?
+                            </p>
+                            <p class="arrow">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </p>
+                        </div>
+                        <div class="accordion-item">
+                            
+                            <p class="accordion-header">
+                                <i class="fa-regular fa-circle-question"></i>
+                                Est pellentesque elit ullamcorper dignissim cras. In pellentesque massa placerat?
+                            </p>
+                            <p class="arrow">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -500,12 +556,18 @@
                     <li>Pricing Tier 5</li>
                     <li>Pricing Tier 6</li>
                 </ul>
-            </div><hr>
+            </div>
+            <hr>
             <div class="flex footer-last-part justify-between items-center">
                 <img src="./image/nav/Logo.png" alt="">
                 <p>Copyright 2028 slothUI, All Rights Reserved.</p>
             </div>
         </div>
+        <a href="#nav-ber">
+            <div class="icons">
+                <img src="./image/Monotone add.png" alt="">
+            </div>
+        </a>
     </footer>
     <script src="./js/index.js"></script>
 </body>
