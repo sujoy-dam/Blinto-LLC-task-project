@@ -12,6 +12,11 @@
         width: 100%;
         margin-top: 12px;
     }
+    .sub-title {
+        max-width: 700px;
+        font-size: 18px;
+        /* font-weight: 400; */
+    }
 
     /* nav  */
     .navber {
@@ -124,6 +129,9 @@
         margin-top: 40px;
         flex-direction: column;
     }
+    .who-is-it-content-description {
+        padding: 0 0px;
+    }
 
     .who-is-it-content img {
         padding: 0px 0px;
@@ -221,7 +229,7 @@
         flex-direction: column;
     }
 
-    .icons img {
+    .icons i {
         width: 30px;
     }
 
@@ -231,13 +239,31 @@
 
     /* accordion */
     .FAQ-section {
-        padding: 96px 16px;
+        padding: 64px 16px;
         background-color: #F8FAFC;
     }
 
     .FAQ-section-content {
-        /* margin-top: 48px; */
+        margin-top: 40px;
         padding: 0 0px;
     }
 
+    /* lgin form  */
+    input{
+        padding: 10px 8px;
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 8px;
+        width: 150px;
+        border-radius: 8px;
+        border: 1px solid gray;
+        font-size: 18px;
+    }  
+    .form-container{
+        border: 1px solid gainsboro;
+        padding: 35px 20px;
+        border-radius: 24px;
+        box-shadow: 5px 5px rgb(243, 240, 240);
+        background-color: ghostwhite;
+    } 
 }
