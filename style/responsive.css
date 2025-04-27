@@ -46,17 +46,14 @@
     }
 
     .banner-img .img-1 {
-        /* position: absolute;
         bottom: 60px;
-        right: 10px; */
-        width: 343px;
-        /* height: 350px; */
+        right: 500px;
     }
 
     .banner-img .img-2 {
         position: absolute;
         bottom: 10px;
-        right: 60px;
+        right: 20px;
         width: 97px;
         height: 177px;
     }
